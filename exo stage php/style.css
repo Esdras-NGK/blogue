@@ -1,0 +1,66 @@
+body{
+    margin: 0 auto;
+}
+/* nav{
+    margin: 0%;
+    padding: 2%;
+
+} */
+.jaune{background-color: yellow;}
+
+
+.hero-header{
+    color: aliceblue;
+    
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
+    /* background-image: url(FTJOPMAUsAQSfEm.jpg);  */
+    /* opacity: 0.2; */
+}
+
+section{
+    background-color: rgb(61, 61, 61);
+}
+
+@media screen and (max-width: 900) {
+    body{
+        margin: 0 auto;
+        
+    }
+
+    header{margin: 0 auto;}
+    /* .hero-header   {background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(FTJOPMAUsAQSfEm.jpg); opacity: 0.5; background-size: cover;} */
+
+    .container-fluid{
+        margin: 0% auto;
+    }
+
+    .card col-1{
+        width: 12rem; margin: 10px;
+    }
+}
+
+
+.formul {
+    /* background-color: rgb(255, 255, 255); */
+    /* border: solid 2px black; */
+    width:100%;
+    margin: 0%auto;
+    padding: 5%;
+    /* display: block; */
+
+}
+
+.formul form .haut{
+    padding: 0% 12%;
+}
+
+
+.formul form .bas {
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+}
